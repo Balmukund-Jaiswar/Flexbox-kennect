@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    height: 100px;
+    width: 100px;
+    background-color: steelblue;
+    list-style: none;
+}
+
+.topul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middiv{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.middiv div{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.middiv div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
